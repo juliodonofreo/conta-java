@@ -34,10 +34,6 @@ public class Conta {
 	public double getSaldo() {
 		return saldo;
 	}
-
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
 	
 	public void depositar(double deposito) {
 		this.saldo += deposito;
